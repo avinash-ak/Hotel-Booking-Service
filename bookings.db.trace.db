@@ -1,0 +1,6 @@
+2021-09-01 02:02:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HOTEL_BOOKING" not found; SQL statement:
+select hotelbooki0_.id as id1_0_, hotelbooki0_.hotel_name as hotel_na2_0_, hotelbooki0_.price_per_night as price_pe3_0_, hotelbooki0_.total_nights as total_ni4_0_ from hotel_booking hotelbooki0_ where hotelbooki0_.price_per_night<? [42102-200]
+2021-09-01 02:02:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HOTEL_BOOKING" not found; SQL statement:
+select hotelbooki0_.id as id1_0_, hotelbooki0_.hotel_name as hotel_na2_0_, hotelbooki0_.price_per_night as price_pe3_0_, hotelbooki0_.total_nights as total_ni4_0_ from hotel_booking hotelbooki0_ [42102-200]
